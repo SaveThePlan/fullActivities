@@ -12,14 +12,14 @@
 		CE4C1F57194DD47F00B7F138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C1F56194DD47F00B7F138 /* UIKit.framework */; };
 		CE4C1F5D194DD47F00B7F138 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4C1F5B194DD47F00B7F138 /* InfoPlist.strings */; };
 		CE4C1F5F194DD47F00B7F138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C1F5E194DD47F00B7F138 /* main.m */; };
-		CE4C1F63194DD47F00B7F138 /* STPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C1F62194DD47F00B7F138 /* STPAppDelegate.m */; };
+		CE4C1F63194DD47F00B7F138 /* STPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C1F62194DD47F00B7F138 /* STPAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE4C1F65194DD47F00B7F138 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4C1F64194DD47F00B7F138 /* Images.xcassets */; };
 		CE4C1F6C194DD47F00B7F138 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C1F6B194DD47F00B7F138 /* XCTest.framework */; };
 		CE4C1F6D194DD47F00B7F138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C1F52194DD47F00B7F138 /* Foundation.framework */; };
 		CE4C1F6E194DD47F00B7F138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C1F56194DD47F00B7F138 /* UIKit.framework */; };
 		CE4C1F76194DD47F00B7F138 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4C1F74194DD47F00B7F138 /* InfoPlist.strings */; };
 		CE4C1F78194DD47F00B7F138 /* FullActivitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C1F77194DD47F00B7F138 /* FullActivitiesTests.m */; };
-		CE4C1F83194DD59D00B7F138 /* STPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C1F82194DD59D00B7F138 /* STPMainViewController.m */; };
+		CE4C1F83194DD59D00B7F138 /* STPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C1F82194DD59D00B7F138 /* STPMainViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +77,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CE2918C0194DD8C2005D8D48 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				CE4C1F61194DD47F00B7F138 /* STPAppDelegate.h */,
+				CE4C1F62194DD47F00B7F138 /* STPAppDelegate.m */,
+				CE4C1F84194DD5A500B7F138 /* Controller */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		CE4C1F46194DD47F00B7F138 = {
 			isa = PBXGroup;
 			children = (
@@ -110,11 +120,9 @@
 		CE4C1F58194DD47F00B7F138 /* FullActivities */ = {
 			isa = PBXGroup;
 			children = (
-				CE4C1F61194DD47F00B7F138 /* STPAppDelegate.h */,
-				CE4C1F62194DD47F00B7F138 /* STPAppDelegate.m */,
+				CE2918C0194DD8C2005D8D48 /* Class */,
 				CE4C1F64194DD47F00B7F138 /* Images.xcassets */,
 				CE4C1F59194DD47F00B7F138 /* Supporting Files */,
-				CE4C1F84194DD5A500B7F138 /* Controller */,
 			);
 			path = FullActivities;
 			sourceTree = "<group>";
@@ -454,6 +462,7 @@
 				CE4C1F7D194DD47F00B7F138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE4C1F7E194DD47F00B7F138 /* Build configuration list for PBXNativeTarget "FullActivitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +471,7 @@
 				CE4C1F80194DD47F00B7F138 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
