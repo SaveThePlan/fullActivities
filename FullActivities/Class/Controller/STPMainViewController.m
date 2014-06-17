@@ -7,26 +7,45 @@
 //
 
 #import "STPMainViewController.h"
+#import "STPTableTableViewController.h"
 
-@interface STPMainViewController ()
+@interface STPMainViewController () {
+    STPTableTableViewController * tableViewController;
+    UINavigationController * navViewController;
+}
 
 @end
 
 @implementation STPMainViewController
 
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#pragma mark - Birth & Death
+
+-(void)dealloc
 {
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
+    [tableViewController release]; tableViewController = nil;
+    [navViewController release]; navViewController = nil;
+    
+    [super dealloc];
 }
+
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+#pragma mark - Lifecycle
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    tableViewController = [[STPTableTableViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    [tableViewController setIsIpad:_isIpad];
+    
+    navViewController = [[UINavigationController alloc] initWithRootViewController:tableViewController];
+    
+    [[self view] addSubview:[navViewController view]];
+    
+    [[self view] setFrame:[[UIScreen mainScreen] bounds]];
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,15 +54,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

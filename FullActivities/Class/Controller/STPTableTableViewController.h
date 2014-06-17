@@ -1,5 +1,5 @@
 //
-//  STPMainViewController.h
+//  STPTableTableViewController.h
 //  FullActivities
 //
 //  Created by Nanook on 15/06/2014.
@@ -8,7 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface STPMainViewController : UIViewController
+@interface STPTableTableViewController : UITableViewController <UIActionSheetDelegate, UIAlertViewDelegate>
+{
+    NSMutableArray * categoryList;
+}
 
 @property(assign) BOOL isIpad;
 

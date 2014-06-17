@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE2918C3194DDF20005D8D48 /* STPTableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2918C2194DDF20005D8D48 /* STPTableTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE2918C6194E0249005D8D48 /* STPTask.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2918C5194E0249005D8D48 /* STPTask.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE2918CA194E02BF005D8D48 /* STPCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2918C9194E02BF005D8D48 /* STPCategory.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE4C1F53194DD47F00B7F138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C1F52194DD47F00B7F138 /* Foundation.framework */; };
 		CE4C1F55194DD47F00B7F138 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C1F54194DD47F00B7F138 /* CoreGraphics.framework */; };
 		CE4C1F57194DD47F00B7F138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C1F56194DD47F00B7F138 /* UIKit.framework */; };
 		CE4C1F5D194DD47F00B7F138 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4C1F5B194DD47F00B7F138 /* InfoPlist.strings */; };
 		CE4C1F5F194DD47F00B7F138 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C1F5E194DD47F00B7F138 /* main.m */; };
 		CE4C1F63194DD47F00B7F138 /* STPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C1F62194DD47F00B7F138 /* STPAppDelegate.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CE4C1F65194DD47F00B7F138 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE4C1F64194DD47F00B7F138 /* Images.xcassets */; };
 		CE4C1F6C194DD47F00B7F138 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C1F6B194DD47F00B7F138 /* XCTest.framework */; };
 		CE4C1F6D194DD47F00B7F138 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C1F52194DD47F00B7F138 /* Foundation.framework */; };
 		CE4C1F6E194DD47F00B7F138 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE4C1F56194DD47F00B7F138 /* UIKit.framework */; };
 		CE4C1F76194DD47F00B7F138 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE4C1F74194DD47F00B7F138 /* InfoPlist.strings */; };
 		CE4C1F78194DD47F00B7F138 /* FullActivitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C1F77194DD47F00B7F138 /* FullActivitiesTests.m */; };
 		CE4C1F83194DD59D00B7F138 /* STPMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE4C1F82194DD59D00B7F138 /* STPMainViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE91E13F19504194000449F9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE91E13E19504194000449F9 /* Images.xcassets */; };
+		CE91E1421950549F000449F9 /* STPCategoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE91E1411950549F000449F9 /* STPCategoryTableViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE9555A6194EDE2D00B7EC9D /* priority1x32.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9555A3194EDE2D00B7EC9D /* priority1x32.png */; };
+		CE9555A7194EDE2D00B7EC9D /* priority2x32.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9555A4194EDE2D00B7EC9D /* priority2x32.png */; };
+		CE9555A8194EDE2D00B7EC9D /* priority3x32.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9555A5194EDE2D00B7EC9D /* priority3x32.png */; };
+		CE9555AA194EDF1F00B7EC9D /* priority0x32.png in Resources */ = {isa = PBXBuildFile; fileRef = CE9555A9194EDF1F00B7EC9D /* priority0x32.png */; };
+		CE9555B5194EE29500B7EC9D /* UIBarButtonItem+STPCustomImage.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9555AF194EE29500B7EC9D /* UIBarButtonItem+STPCustomImage.m */; };
+		CE9555B6194EE29500B7EC9D /* UIImage+STPImageResize.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9555B1194EE29500B7EC9D /* UIImage+STPImageResize.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE9555B7194EE29500B7EC9D /* UIView+STPViewForAutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9555B3194EE29500B7EC9D /* UIView+STPViewForAutoLayout.m */; };
+		CE9555BA194F0B6D00B7EC9D /* STPTaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9555B9194F0B6D00B7EC9D /* STPTaskViewController.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE9555BD194F0C6600B7EC9D /* STPTaskView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9555BC194F0C6600B7EC9D /* STPTaskView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE9555C2194F398600B7EC9D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9555C1194F398600B7EC9D /* MobileCoreServices.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CE2918C1194DDF20005D8D48 /* STPTableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTableTableViewController.h; sourceTree = "<group>"; };
+		CE2918C2194DDF20005D8D48 /* STPTableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTableTableViewController.m; sourceTree = "<group>"; };
+		CE2918C4194E0249005D8D48 /* STPTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STPTask.h; path = FullActivities/Class/Model/STPTask.h; sourceTree = SOURCE_ROOT; };
+		CE2918C5194E0249005D8D48 /* STPTask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STPTask.m; path = FullActivities/Class/Model/STPTask.m; sourceTree = SOURCE_ROOT; };
+		CE2918C8194E02BF005D8D48 /* STPCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCategory.h; sourceTree = "<group>"; };
+		CE2918C9194E02BF005D8D48 /* STPCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCategory.m; sourceTree = "<group>"; };
 		CE4C1F4F194DD47F00B7F138 /* FullActivities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FullActivities.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4C1F52194DD47F00B7F138 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CE4C1F54194DD47F00B7F138 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -43,7 +63,6 @@
 		CE4C1F60194DD47F00B7F138 /* FullActivities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FullActivities-Prefix.pch"; sourceTree = "<group>"; };
 		CE4C1F61194DD47F00B7F138 /* STPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = STPAppDelegate.h; sourceTree = "<group>"; };
 		CE4C1F62194DD47F00B7F138 /* STPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STPAppDelegate.m; sourceTree = "<group>"; };
-		CE4C1F64194DD47F00B7F138 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CE4C1F6A194DD47F00B7F138 /* FullActivitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullActivitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4C1F6B194DD47F00B7F138 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CE4C1F73194DD47F00B7F138 /* FullActivitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FullActivitiesTests-Info.plist"; sourceTree = "<group>"; };
@@ -51,6 +70,25 @@
 		CE4C1F77194DD47F00B7F138 /* FullActivitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FullActivitiesTests.m; sourceTree = "<group>"; };
 		CE4C1F81194DD59D00B7F138 /* STPMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPMainViewController.h; sourceTree = "<group>"; };
 		CE4C1F82194DD59D00B7F138 /* STPMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPMainViewController.m; sourceTree = "<group>"; };
+		CE91E13E19504194000449F9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CE91E1401950549F000449F9 /* STPCategoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPCategoryTableViewController.h; sourceTree = "<group>"; };
+		CE91E1411950549F000449F9 /* STPCategoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPCategoryTableViewController.m; sourceTree = "<group>"; };
+		CE9555A3194EDE2D00B7EC9D /* priority1x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priority1x32.png; sourceTree = "<group>"; };
+		CE9555A4194EDE2D00B7EC9D /* priority2x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priority2x32.png; sourceTree = "<group>"; };
+		CE9555A5194EDE2D00B7EC9D /* priority3x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priority3x32.png; sourceTree = "<group>"; };
+		CE9555A9194EDF1F00B7EC9D /* priority0x32.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = priority0x32.png; sourceTree = "<group>"; };
+		CE9555AE194EE29500B7EC9D /* UIBarButtonItem+STPCustomImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+STPCustomImage.h"; sourceTree = "<group>"; };
+		CE9555AF194EE29500B7EC9D /* UIBarButtonItem+STPCustomImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+STPCustomImage.m"; sourceTree = "<group>"; };
+		CE9555B0194EE29500B7EC9D /* UIImage+STPImageResize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+STPImageResize.h"; sourceTree = "<group>"; };
+		CE9555B1194EE29500B7EC9D /* UIImage+STPImageResize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+STPImageResize.m"; sourceTree = "<group>"; };
+		CE9555B2194EE29500B7EC9D /* UIView+STPViewForAutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+STPViewForAutoLayout.h"; sourceTree = "<group>"; };
+		CE9555B3194EE29500B7EC9D /* UIView+STPViewForAutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+STPViewForAutoLayout.m"; sourceTree = "<group>"; };
+		CE9555B8194F0B6D00B7EC9D /* STPTaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTaskViewController.h; sourceTree = "<group>"; };
+		CE9555B9194F0B6D00B7EC9D /* STPTaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTaskViewController.m; sourceTree = "<group>"; };
+		CE9555BB194F0C6600B7EC9D /* STPTaskView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STPTaskView.h; sourceTree = "<group>"; };
+		CE9555BC194F0C6600B7EC9D /* STPTaskView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STPTaskView.m; sourceTree = "<group>"; };
+		CE9555BF194F38F800B7EC9D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		CE9555C1194F398600B7EC9D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9555C2194F398600B7EC9D /* MobileCoreServices.framework in Frameworks */,
 				CE4C1F55194DD47F00B7F138 /* CoreGraphics.framework in Frameworks */,
 				CE4C1F57194DD47F00B7F138 /* UIKit.framework in Frameworks */,
 				CE4C1F53194DD47F00B7F138 /* Foundation.framework in Frameworks */,
@@ -80,12 +119,27 @@
 		CE2918C0194DD8C2005D8D48 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				CE9555AB194EE29500B7EC9D /* Category */,
+				CE2918C7194E0251005D8D48 /* Model */,
 				CE4C1F61194DD47F00B7F138 /* STPAppDelegate.h */,
 				CE4C1F62194DD47F00B7F138 /* STPAppDelegate.m */,
 				CE4C1F84194DD5A500B7F138 /* Controller */,
+				CE9555BE194F0C6F00B7EC9D /* View */,
 			);
 			path = Class;
 			sourceTree = "<group>";
+		};
+		CE2918C7194E0251005D8D48 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE2918C4194E0249005D8D48 /* STPTask.h */,
+				CE2918C5194E0249005D8D48 /* STPTask.m */,
+				CE2918C8194E02BF005D8D48 /* STPCategory.h */,
+				CE2918C9194E02BF005D8D48 /* STPCategory.m */,
+			);
+			name = Model;
+			path = FullActivities/Class/Model;
+			sourceTree = SOURCE_ROOT;
 		};
 		CE4C1F46194DD47F00B7F138 = {
 			isa = PBXGroup;
@@ -109,6 +163,8 @@
 		CE4C1F51194DD47F00B7F138 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CE9555C1194F398600B7EC9D /* MobileCoreServices.framework */,
+				CE9555BF194F38F800B7EC9D /* CoreMedia.framework */,
 				CE4C1F52194DD47F00B7F138 /* Foundation.framework */,
 				CE4C1F54194DD47F00B7F138 /* CoreGraphics.framework */,
 				CE4C1F56194DD47F00B7F138 /* UIKit.framework */,
@@ -120,8 +176,9 @@
 		CE4C1F58194DD47F00B7F138 /* FullActivities */ = {
 			isa = PBXGroup;
 			children = (
+				CE91E13E19504194000449F9 /* Images.xcassets */,
+				CE9555A1194EDE2D00B7EC9D /* Resource */,
 				CE2918C0194DD8C2005D8D48 /* Class */,
-				CE4C1F64194DD47F00B7F138 /* Images.xcassets */,
 				CE4C1F59194DD47F00B7F138 /* Supporting Files */,
 			);
 			path = FullActivities;
@@ -161,8 +218,55 @@
 			children = (
 				CE4C1F81194DD59D00B7F138 /* STPMainViewController.h */,
 				CE4C1F82194DD59D00B7F138 /* STPMainViewController.m */,
+				CE2918C1194DDF20005D8D48 /* STPTableTableViewController.h */,
+				CE2918C2194DDF20005D8D48 /* STPTableTableViewController.m */,
+				CE9555B8194F0B6D00B7EC9D /* STPTaskViewController.h */,
+				CE9555B9194F0B6D00B7EC9D /* STPTaskViewController.m */,
+				CE91E1401950549F000449F9 /* STPCategoryTableViewController.h */,
+				CE91E1411950549F000449F9 /* STPCategoryTableViewController.m */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE9555A1194EDE2D00B7EC9D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CE9555A2194EDE2D00B7EC9D /* images */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CE9555A2194EDE2D00B7EC9D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CE9555A9194EDF1F00B7EC9D /* priority0x32.png */,
+				CE9555A3194EDE2D00B7EC9D /* priority1x32.png */,
+				CE9555A4194EDE2D00B7EC9D /* priority2x32.png */,
+				CE9555A5194EDE2D00B7EC9D /* priority3x32.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		CE9555AB194EE29500B7EC9D /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				CE9555AE194EE29500B7EC9D /* UIBarButtonItem+STPCustomImage.h */,
+				CE9555AF194EE29500B7EC9D /* UIBarButtonItem+STPCustomImage.m */,
+				CE9555B0194EE29500B7EC9D /* UIImage+STPImageResize.h */,
+				CE9555B1194EE29500B7EC9D /* UIImage+STPImageResize.m */,
+				CE9555B2194EE29500B7EC9D /* UIView+STPViewForAutoLayout.h */,
+				CE9555B3194EE29500B7EC9D /* UIView+STPViewForAutoLayout.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CE9555BE194F0C6F00B7EC9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE9555BB194F0C6600B7EC9D /* STPTaskView.h */,
+				CE9555BC194F0C6600B7EC9D /* STPTaskView.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,8 +345,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9555A7194EDE2D00B7EC9D /* priority2x32.png in Resources */,
 				CE4C1F5D194DD47F00B7F138 /* InfoPlist.strings in Resources */,
-				CE4C1F65194DD47F00B7F138 /* Images.xcassets in Resources */,
+				CE9555A6194EDE2D00B7EC9D /* priority1x32.png in Resources */,
+				CE91E13F19504194000449F9 /* Images.xcassets in Resources */,
+				CE9555A8194EDE2D00B7EC9D /* priority3x32.png in Resources */,
+				CE9555AA194EDF1F00B7EC9D /* priority0x32.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,8 +369,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE9555B7194EE29500B7EC9D /* UIView+STPViewForAutoLayout.m in Sources */,
+				CE9555BA194F0B6D00B7EC9D /* STPTaskViewController.m in Sources */,
 				CE4C1F63194DD47F00B7F138 /* STPAppDelegate.m in Sources */,
+				CE9555BD194F0C6600B7EC9D /* STPTaskView.m in Sources */,
+				CE9555B5194EE29500B7EC9D /* UIBarButtonItem+STPCustomImage.m in Sources */,
+				CE9555B6194EE29500B7EC9D /* UIImage+STPImageResize.m in Sources */,
 				CE4C1F83194DD59D00B7F138 /* STPMainViewController.m in Sources */,
+				CE2918C3194DDF20005D8D48 /* STPTableTableViewController.m in Sources */,
+				CE2918CA194E02BF005D8D48 /* STPCategory.m in Sources */,
+				CE2918C6194E0249005D8D48 /* STPTask.m in Sources */,
+				CE91E1421950549F000449F9 /* STPCategoryTableViewController.m in Sources */,
 				CE4C1F5F194DD47F00B7F138 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

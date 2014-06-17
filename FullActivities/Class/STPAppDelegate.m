@@ -32,7 +32,10 @@
     
     // Override point for customization after application launch.
     
-    UIViewController * mainViewController = [[STPMainViewController alloc] init];
+    BOOL isIpad = ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad);
+    
+    STPMainViewController * mainViewController = [[STPMainViewController alloc] init];
+    [mainViewController setIsIpad:isIpad];
     
     [_window addSubview:[mainViewController view]];
     [_window setRootViewController:mainViewController];
